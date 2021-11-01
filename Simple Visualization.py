@@ -57,39 +57,3 @@ ax = sns.barplot(x='cut',y ='price',estimator=np.mean,data =df1,order=['Ideal','
 # Creating BarPlot with Grouping a Specific Feature
 
 sns.barplot(x='cut',y='price',data =df1,hue='color')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
